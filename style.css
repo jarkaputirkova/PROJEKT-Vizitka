@@ -14,3 +14,81 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+
+body{
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding:0
+}
+
+
+/*margin medzi textom a h1 je 18px, takže zvyšných 12px som pridala aby to bolo 30px*/
+h1{
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #d63031;
+    font-weight: bold;
+    font-size:36px
+}
+
+.foto-eliska{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    left: 930px;
+    top: 90px
+}
+
+.pracovna-pozicia{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 30%;
+    width: 550px;
+    box-shadow: 2px 5px 20px grey;
+}
+
+.twitter{
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    text-transform: uppercase
+}
+
+.twitter a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter:hover{
+    background-color: #0b7bc1;
+}
+
+.facebook{
+    margin: 0px;
+    text-align: center;
+    background-color: #3b5998;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.facebook a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background-color: #2b406e;
+}
